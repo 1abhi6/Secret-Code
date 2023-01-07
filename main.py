@@ -2,6 +2,8 @@ import string
 import random
 
 #  Function to encode
+
+
 def encoding():
     encodedList = []
     randomWord = ""
@@ -26,6 +28,8 @@ def encoding():
     print(encodedStr)
 
 # Function to decode
+
+
 def decoding():
     decodedStr = ""
     decodedList = []
@@ -43,6 +47,7 @@ def decoding():
     for item in decodedList:
         decodedStr += " "+item
     print(decodedStr)
+
 
 # Code to create a menu
 while (1):
