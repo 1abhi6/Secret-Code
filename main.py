@@ -60,5 +60,5 @@ while (1):
             decoding()
         case "3":
             break
-        case other:
+        case _:
             print("Invalild selection!!!\nPlease try again")
